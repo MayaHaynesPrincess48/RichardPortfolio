@@ -156,6 +156,11 @@ const experiences = [
     iconBg: '#111111',
     content: [
       'Engaged in various coursework projects, including a capstone project that involved designing a web application aimed at enhancing student engagement on campus.',
+      'Dynamic and accomplished individual with a diverse skill set and strong academic background.',
+      'Graduated summa cum laude with a GPA of 3.7+.',
+      'Skilled in leadership, communication, and problem-solving.',
+      'Played WR for the school football team, demonstrating teamwork and discipline.',
+      'Received the esteemed Merit-Based Scholarships and Athletic Scholarships, a testament to exceptional academic prowess and unwavering dedication for 3 years.',
       `Bachelor's Degree`,
     ],
     date: 'September 2010 - October 2014',
