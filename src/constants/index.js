@@ -153,6 +153,7 @@ const experiences = [
     icon: usf,
     iconBg: '#111111',
     content: [
+      'Served as President of Student Council, Exhibiting leadership and organizational abilities 2013-2014',
       'Engaged in various coursework projects, including a capstone project that involved designing a web application aimed at enhancing student engagement on campus.',
       'Dynamic and accomplished individual with a diverse skill set and strong academic background.',
       'Graduated summa cum laude with a GPA of 3.7+.',
