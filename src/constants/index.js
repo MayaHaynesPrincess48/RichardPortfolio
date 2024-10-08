@@ -2,13 +2,11 @@ import {
   frontend, backend, ux, prototyping,
   javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, docker, postgresql, rubyrails, graphql,
   komikult, leaderboard, math, movie, nyeusi,
-  squarespace, floridaPoly,
+  squarespace, hear, usf, lizard,
   s_angular, s_boostrap, s_css3, s_cassandra, s_django, s_docker, s_html5, s_javascript, s_jquery,
   s_laravel, s_mongodb, s_mysql, s_nodejs, s_reactjs, s_typescript, s_vuejs,
+  s_postgresql, s_python, s_redux, s_firebase, s_amazon,
   r_platoon, r_dwntwn, r_yetimotion, r_dffrntera, r_racksimply,
-  hear,
-  usf,
-  lizard,
 } from '../assets'
 
 const navLinks = [
@@ -113,7 +111,7 @@ const technologies = [
 ]
 
 const svgTech = [
-  // s_amazon,
+  s_amazon,
   // s_android,
   s_angular,
   s_boostrap,
@@ -123,7 +121,7 @@ const svgTech = [
   s_cassandra,
   s_django,
   s_docker,
-  // s_firebase,
+  s_firebase,
   s_html5,
   // s_java,
   s_javascript,
@@ -133,11 +131,11 @@ const svgTech = [
   s_mongodb,
   s_mysql,
   s_nodejs,
-  // s_postgresql,
-  // s_python,
+  s_postgresql,
+  s_python,
   s_reactjs,
   // s_redis,
-  // s_redux,
+  s_redux,
   // s_ruby,
   // s_rubyrails,
   // s_rust, 
