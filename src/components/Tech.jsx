@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { BallCanvas } from './canvas'
 import { SectionWrapper } from '../hoc'
-import { svgTech, technologies } from '../constants'
+import { svgTech } from '../constants'
 import { styles } from '../styles'
 import { textVariant } from '../utils/motion'
 import SectionTitle from './SectionTitle'

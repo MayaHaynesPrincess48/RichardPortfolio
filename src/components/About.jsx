@@ -1,4 +1,3 @@
-import React from 'react'
 import { motion } from 'framer-motion'
 import { Tilt } from 'react-tilt'
 import { styles } from '../styles'
@@ -40,13 +39,10 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Dynamic and accomplished senior web developer with extensive experience in leading and managing cross-functional teams
-        to deliver outstanding digital solutions.
-        Adept at creating visually stunning and efficient websites, driving client satisfaction and business growth.
-        Proficient in translating design concepts into high-quality code and collaborating effectively with diverse stakeholders.
-        Skilled in project management, customer-specific design frameworks, and digital marketing strategies.
-        Possesses a strong academic background in computer science, complemented by leadership roles and extracurricular
-        involvement.
+        Experienced Full Stack Developer with 6+ years in the industry, specializing in web development and team
+        leadership. Proficient in modern technologies and methodologies, including JavaScript frameworks, Python,
+        PHP, cloud services, and microservices architecture. Proven ability to manage teams, deliver high-quality
+        projects on time, and implement innovative solutions that enhance business performance.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">

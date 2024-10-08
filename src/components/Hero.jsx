@@ -20,24 +20,22 @@ const Hero = () => {
           </div>
 
           <div style={{ zIndex: '10' }}>
-            <h1
-              className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Hi, I'm{' '}
+            <h1 className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
+              {"Hi, I'm"}
               <span className="sm:text-[darkpink] sm:text-[90px] text-eerieBlack text-[50px] font-mova font-extrabold uppercase">
-                <SectionTitle title="Samanoskey Akechi" />
+                <SectionTitle title="Richard Boyer" />
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Senior Web Developer <br className="sm:block hidden" />
-              have +9 years of experience
+              Senior Full-Stack Developer <br className="sm:block hidden" />
+              have +6 years of experience
             </p>
-            <div className='w-[50px] h-[50px] text-[red]'>hello World</div>
           </div>
           <div className="w-screen flex flex-col items-start justify-center sm:-ml-[3rem] xxs:mt-4"></div>
           <div></div>
         </div>
 
-        <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
+        <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center z-10">
           <a href="#about">
             <div
               className="w-[35px] h-[64px] rounded-3xl border-4 border-french border-dim flex justify-center items-start p-2">
@@ -56,15 +54,15 @@ const Hero = () => {
           </a>
         </div>
 
-        <div style={{ marginLeft: '-200px', zIndex: '1' }}>
-          <img
-            className="absolute bottom-0 ml-[50vw] 
-            lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
+        {/* <div style={{ marginLeft: '-300px', zIndex: '0' }}> */}
+        <img
+          className="absolute bottom-0 
+            ml-[50vw] lg:ml-[60vw] md:ml-[40vw] xmd:ml-[40vw] xxs:ml-[20vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
-            src={profile}
-            alt="shaquille"
-          />
-        </div>
+          src={profile}
+          alt="shaquille"
+        />
+        {/* </div> */}
       </section>
     </div>
   )

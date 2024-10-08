@@ -4,7 +4,6 @@ import whiteabstract from './backgrounds/white-abstract.png'
 import worldmap from './backgrounds/world-map.png'
 
 import logo from './logo/logo-black.png'
-import logotext from './logo/logo-text-black.png'
 
 import profile from './personal/profile.png'
 
@@ -93,7 +92,7 @@ import r_racksimply from './projects/r_racksimply.jpg'
 
 export {
   bwmap, nairobi, whiteabstract, worldmap,
-  logo, logotext, profile,
+  logo, profile,
   backend, ux, frontend, prototyping, github, close, download, downloadHover, pineapple, pineappleHover, menu, resume, send, sendHover,
   css, docker, figma, git, graphql, html, javascript, nodejs, postgresql, rubyrails, reactjs, redux, tailwind, typescript,
   s_amazon, s_android, s_angular, s_boostrap, s_c, s_cPlus, s_css3, s_cassandra, s_django, s_docker, s_firebase, s_html5, s_java, s_javascript, s_jquery, s_kotlin,

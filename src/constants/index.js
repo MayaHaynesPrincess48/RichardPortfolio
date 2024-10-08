@@ -1,10 +1,10 @@
 import {
   frontend, backend, ux, prototyping,
   javascript, typescript, html, css, reactjs, redux, tailwind, nodejs, git, figma, docker, postgresql, rubyrails, graphql,
-  komikult, leaderboard, math, movie, nyeusi, space,
-  hear, dcc, squarespace, floridaPoly,
-  s_amazon, s_android, s_angular, s_boostrap, s_c, s_cPlus, s_css3, s_cassandra, s_django, s_docker, s_firebase, s_html5, s_java, s_javascript, s_jquery, s_kotlin,
-  s_laravel, s_mongodb, s_mysql, s_nodejs, s_postgresql, s_python, s_reactjs, s_redis, s_redux, s_ruby, s_rubyrails, s_rust, s_spring, s_typescript, s_vuejs,
+  komikult, leaderboard, math, movie, nyeusi,
+  squarespace, floridaPoly,
+  s_angular, s_boostrap, s_css3, s_cassandra, s_django, s_docker, s_html5, s_javascript, s_jquery,
+  s_laravel, s_mongodb, s_mysql, s_nodejs, s_reactjs, s_typescript, s_vuejs,
   r_platoon, r_dwntwn, r_yetimotion, r_dffrntera, r_racksimply,
 } from '../assets'
 
@@ -36,17 +36,17 @@ const services = [
   {
     title: 'Backend Developer',
     icon: backend,
-    text: 'Node, Express, PHP, Laravel',
+    text: 'Node, Express, Nest, PHP, Laravel',
   },
   {
     title: 'UI/UX Design',
     icon: ux,
-    text: 'MUI, COREUI, ',
+    text: 'MUI, Core UI, Chakra UI, UI Kits',
   },
   {
-    title: 'Software Prototyping',
+    title: 'DevOps',
     icon: prototyping,
-    text: '',
+    text: 'AWS, Docker, Nginx, Apache, Github CI/CD',
   },
 ]
 
@@ -145,56 +145,44 @@ const svgTech = [
 
 const experiences = [
   {
-    title: 'Front-End Developer Intern',
-    company_name: 'Hear',
-    icon: hear,
-    iconBg: '#111111',
-    content: [
-      'Translated designs and wireframes into high-quality code using HTML, CSS, and JavaScript.',
-      'Worked closely with developers, designers, copywriters, and other cross-functional teams (CRO, Video, Marketing, etc..) to drive innovation and maximize conversions by 40 %.',
-      'Provided input to leaders 3 times a year about the future development of new features.',
-      'Ensured the technical feasibility of UI/UX designs.',
-    ],
-    date: 'June 2015 - April 2016',
-    location: 'Miami, FL',
-  },
-  {
-    title: 'Web Designer',
+    title: 'Full Stack Developer',
     company_name: 'Florida Polytechnic University ',
     icon: floridaPoly,
     iconBg: '#111111',
     content: [
-      'Created and assisted with the development of 3 official university-sponsored websites.',
-      'Created and assisted with the design, development, and support of new and existing secure websites and web applications.',
-      'Conceptualized, created, and managed dynamic web pages for data display and entry using appropriate technologies(HTML, PHP, and Web CMS).',
-      'Worked as part of a 4-person team, and communicated in a professional and collegial way.',
-      'Provided training for continuous updating of websites.',
+      'Developed and maintained multiple web applications using JavaScript (React, Next, Vue), Python (Django, Flask), PHP (Laravel), resulting in a 20% increase in application performance.',
+      'Led a team of 3 developers, successfully managing projects from conception to deployment, improving team productivity by 15%.',
+      'Ensured efficient task management and collaboration through github, increasing project completion rates by 20%.',
+      'Deployed and maintained applications on AWS, ensuring 99.9% uptime.',
+      'Utilized Git, RabbitMQ, Redis, Nginx, Apache to optimize performance and scalability.',
     ],
-    date: 'April 2016 - January 2020',
+    date: 'August 2016 - October 2020',
     location: 'Lakeland, FL',
+    project: [
+      { url: '', title: '' },
+      { url: '', title: '' },
+    ]
   },
   {
-    title: 'Senior Web Developer',
+    title: 'Lead Full Stack Developer',
     company_name: 'Squarespace',
     icon: squarespace,
     iconBg: '#111111',
     content: [
-      'Led and managed a team of 12 developers and designers to create efficient, effective, and visually aesthetic websites for 60,000+ clients.',
-      'Oversaw concept mock-up and wireframe design to further client satisfaction by 35%.',
-      'Developed customer-specific design framework, reducing site production time by 4 days.',
+      'Led and managed a team of 12 developers and designers to create efficient, effective, and visually aesthetic websites for 600+ clients.',
+      'Spearheaded the development of concept mock-ups and wireframe designs, resulting in a 35% increase in client satisfaction through strategic design enhancements.',
+      'Developed and implemented a customer-specific design framework, streamlining production processes and reducing site production time by 10 Days.',
       'Collaborated with VP of sales to create digital marketing designs that led to an average 20,000 + additional clients per month.',
-      'Led bi-weekly standup to celebrate team successes, address weaknesses, and assign tasks.',
+      'Led bi-weekly standup meetings to celebrate team successes, address project weaknesses, and assign tasks based on team capacity and project priorities.',
+      'Implemented CI/CD pipelines using GitHub Actions, reducing deployment time by 50%.',
     ],
-    date: 'January 2020 - current',
+    date: 'October 2021 - June 2024',
     location: 'Remote',
+    project: [
+      { url: '', title: '' },
+      { url: '', title: '' },
+    ]
   },
-  // {
-  //   title: 'Full Stack Developer',
-  //   company_name: 'Diversity Cyber Council',
-  //   icon: dcc,
-  //   iconBg: '#111111',
-  //   date: 'Sep 2022 - Present',
-  // },
 ]
 
 const projects = [
@@ -217,7 +205,7 @@ const projects = [
       },
     ],
     image: komikult,
-    repo: 'https://github.com/shaqdeff/KomiKult',
+    repo: 'https://github.com/mayaHaynesPrincess48/KomiKult',
     demo: 'https://shaqdeff.github.io/KomiKult/',
   },
   {
@@ -240,7 +228,7 @@ const projects = [
       },
     ],
     image: leaderboard,
-    repo: 'https://github.com/shaqdeff/Leaderboard',
+    repo: 'https://github.com/mayaHaynesPrincess48/Leaderboard',
     demo: 'https://shaqdeff.github.io/Leaderboard/',
   },
   {
@@ -262,7 +250,7 @@ const projects = [
       },
     ],
     image: math,
-    repo: 'https://github.com/shaqdeff/Math-Magicians',
+    repo: 'https://github.com/mayaHaynesPrincess48/Math-Magicians',
     demo: 'https://inspiring-medovik-37d3b3.netlify.app/',
   },
   {
@@ -284,7 +272,7 @@ const projects = [
       },
     ],
     image: movie,
-    repo: 'https://github.com/shaqdeff/Movie-Metro',
+    repo: 'https://github.com/mayaHaynesPrincess48/Movie-Metro',
     demo: 'https://movie-metro.netlify.app/',
   },
   {
@@ -307,7 +295,7 @@ const projects = [
       },
     ],
     image: nyeusi,
-    repo: 'https://github.com/shaqdeff/Nyeusi-Fest-Site',
+    repo: 'https://github.com/mayaHaynesPrincess48/Nyeusi-Fest-Site',
     demo: 'https://shaqdeff.github.io/Nyeusi-Fest-Site/',
   },
 ]
@@ -425,4 +413,35 @@ const r_projexts = [
   },
 ]
 
-export { navLinks, services, technologies, svgTech, experiences, projects, r_projexts }
+const situationinfo = [
+  {
+    question: 'Describe a time when you had to manage a difficult project.',
+    situation: `In my previous role as a project manager at XYZ Corporation, we were tasked with developing a new software product that would integrate with our clients' existing systems. The project had a tight deadline of six months, and we faced significant challenges, including limited resources and a team that was unfamiliar with some of the new technologies required.`,
+    task: `My responsibility was to ensure the project was completed on time and met all the client's requirements. This involved coordinating with different departments, managing the project timeline, and ensuring that the team was adequately trained and motivated.`,
+    action: `To tackle these challenges, I first organized a kick-off meeting to clearly define the project scope, objectives, and deadlines with all stakeholders. I then broke down the project into smaller, manageable tasks and assigned them to team members based on their strengths and expertise. Recognizing the knowledge gap in new technologies, I arranged for training sessions and brought in an external consultant for critical phases of the project. Additionally, I implemented agile methodologies, holding daily stand-up meetings to monitor progress, address any roadblocks promptly, and keep everyone aligned with the project's goals.`,
+    result: `As a result of these actions, we completed the project two weeks ahead of schedule and within budget. The software product was successfully integrated with the clients' systems, leading to high customer satisfaction. Furthermore, the project was highlighted as a model for future initiatives, and the team gained valuable skills in the new technologies, which benefitted subsequent projects.`,
+  },
+  {
+    question: `Can you give an example of a time when you demonstrated leadership skills?`,
+    situation: `In my role as a team lead at ABC Marketing Agency, we were tasked with launching a major marketing campaign for a new client within a very tight three-month deadline. The project was high-stakes, as it involved a substantial budget and high expectations from the client. However, the team was under significant pressure, and there were initial conflicts about the campaign direction.`,
+    task: `My task was to lead the team through this challenging project, ensuring that we met the deadline while delivering high-quality work that aligned with the client’s vision. It was also crucial to resolve internal conflicts and foster a collaborative environment.`,
+    action: `To address these challenges, I first held a series of meetings with the team to understand their perspectives and concerns. I facilitated open discussions to brainstorm ideas and find common ground, which helped in aligning everyone’s vision for the campaign. I then delegated specific responsibilities based on each team member’s strengths, ensuring clear communication and setting realistic milestones. Recognizing the pressure the team was under, I organized team-building activities to boost morale and reduce stress. Additionally, I maintained regular check-ins with both the client and the team to ensure transparency and adapt to any changes promptly.`,
+    result: `The campaign was successfully launched on time and received positive feedback from the client, who praised our creativity and execution. The internal conflicts were resolved, resulting in a more cohesive and motivated team. Our campaign also garnered significant attention in the market, leading to increased engagement and sales for the client. The success of this project also led to an expanded contract with the client, securing more business for the agency.`,
+  },
+  {
+    question: ``,
+    situation: ``,
+    task: ``,
+    action: ``,
+    result: ``,
+  },
+  {
+    question: ``,
+    situation: ``,
+    task: ``,
+    action: ``,
+    result: ``,
+  },
+]
+
+export { navLinks, services, technologies, svgTech, experiences, projects, r_projexts, situationinfo }
