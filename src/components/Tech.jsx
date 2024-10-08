@@ -25,13 +25,11 @@ const Tech = () => {
         ))}
       </div> */}
       <div className="flex flex-wrap justify-center gap-10 mt-14">
-        {
-          svgTech.map((technology, index) => (
-            <div className="w-28 h-28" key={index}>
-              <BallCanvas icon={technology} />
-            </div>
-          ))
-        }
+        {svgTech.map((technology, index) => (
+          <div className="w-28 h-28" key={index}>
+            <BallCanvas icon={technology} />
+          </div>
+        ))}
       </div>
     </>
   )
