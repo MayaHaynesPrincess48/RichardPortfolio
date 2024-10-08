@@ -6,6 +6,9 @@ import {
   s_angular, s_boostrap, s_css3, s_cassandra, s_django, s_docker, s_html5, s_javascript, s_jquery,
   s_laravel, s_mongodb, s_mysql, s_nodejs, s_reactjs, s_typescript, s_vuejs,
   r_platoon, r_dwntwn, r_yetimotion, r_dffrntera, r_racksimply,
+  hear,
+  usf,
+  lizard,
 } from '../assets'
 
 const navLinks = [
@@ -41,7 +44,7 @@ const services = [
   {
     title: 'UI/UX Design',
     icon: ux,
-    text: 'MUI, Core UI, Chakra UI, UI Kits',
+    text: 'Figma, Sketch, Adobe Illustrator, Webflow',
   },
   {
     title: 'DevOps',
@@ -144,10 +147,52 @@ const svgTech = [
 ]
 
 const experiences = [
+
+  {
+    title: 'Student',
+    company_name: 'University of San Francisco',
+    company_site: 'https://www.usfca.edu/',
+    icon: usf,
+    iconBg: '#111111',
+    content: [
+      'Engaged in various coursework projects, including a capstone project that involved designing a web application aimed at enhancing student engagement on campus.',
+      `Bachelor's Degree`,
+    ],
+    date: 'September 2010 - October 2014',
+    location: 'San Francisco, CA',
+    project: [
+      { url: 'https://www.usfca.edu/', title: 'USF' },
+    ],
+    skill: {
+      frontend: 'HTML, CSS, JavaScript, React',
+      backend: 'Node.js, Express',
+      deployment: 'AWS',
+    },
+  },
+  {
+    title: 'Front End Developer',
+    company_name: 'Hear',
+    company_site: 'https://www.hear.com/',
+    icon: hear,
+    iconBg: '#111111',
+    content: [
+      'Translated designs and wireframes into high-quality code using HTML, CSS, and JavaScript.',
+      'Worked closely with developers, designers, copywriters, and other cross-functional teams (CRO, Video, Marketing, etc..) to drive innovation and maximize conversions by 40 %.',
+      'Provided input to leaders 7 times a year about the future development of new features.',
+      'Ensured the technical feasibility of UI/UX designs.',
+    ],
+    date: 'Aprill 2015 - August 2018',
+    location: 'Miami, FL',
+    project: [
+      { url: '', title: '' },
+      { url: '', title: '' },
+    ]
+  },
   {
     title: 'Full Stack Developer',
-    company_name: 'Florida Polytechnic University ',
-    icon: floridaPoly,
+    company_name: 'Squarespace ',
+    company_site: 'https://www.squarespace.com/',
+    icon: squarespace,
     iconBg: '#111111',
     content: [
       'Developed and maintained multiple web applications using JavaScript (React, Next, Vue), Python (Django, Flask), PHP (Laravel), resulting in a 20% increase in application performance.',
@@ -156,8 +201,8 @@ const experiences = [
       'Deployed and maintained applications on AWS, ensuring 99.9% uptime.',
       'Utilized Git, RabbitMQ, Redis, Nginx, Apache to optimize performance and scalability.',
     ],
-    date: 'August 2016 - October 2020',
-    location: 'Lakeland, FL',
+    date: 'August 2018 - October 2021',
+    location: 'New York, NY',
     project: [
       { url: '', title: '' },
       { url: '', title: '' },
@@ -165,8 +210,9 @@ const experiences = [
   },
   {
     title: 'Lead Full Stack Developer',
-    company_name: 'Squarespace',
-    icon: squarespace,
+    company_name: 'Lounge Lizard LLC',
+    company_site: 'https://www.loungelizard.com/',
+    icon: lizard,
     iconBg: '#111111',
     content: [
       'Led and managed a team of 12 developers and designers to create efficient, effective, and visually aesthetic websites for 600+ clients.',
@@ -177,7 +223,7 @@ const experiences = [
       'Implemented CI/CD pipelines using GitHub Actions, reducing deployment time by 50%.',
     ],
     date: 'October 2021 - June 2024',
-    location: 'Remote',
+    location: 'New York, NY',
     project: [
       { url: '', title: '' },
       { url: '', title: '' },

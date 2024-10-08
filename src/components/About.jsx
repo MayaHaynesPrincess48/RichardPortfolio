@@ -39,7 +39,7 @@ const About = () => {
       <motion.p
         variants={fadeIn('', '', 0.1, 1)}
         className="mt-4 text-taupe text-[18px] max-w-3xl leading-[30px]">
-        Experienced Full Stack Developer with 6+ years in the industry, specializing in web development and team
+        Experienced Full Stack Developer with 10+ years in the industry, specializing in web development and team
         leadership. Proficient in modern technologies and methodologies, including JavaScript frameworks, Python,
         PHP, cloud services, and microservices architecture. Proven ability to manage teams, deliver high-quality
         projects on time, and implement innovative solutions that enhance business performance.

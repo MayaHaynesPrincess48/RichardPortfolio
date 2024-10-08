@@ -69,11 +69,12 @@ import s_spring from './tech/spring.svg'
 import s_typescript from './tech/typescript.svg'
 import s_vuejs from './tech/vuejs.svg'
 
-
+import usf from './company/USF.png'
 import hear from './company/hear.png'
 import dcc from './company/dcc.png'
 import squarespace from './company/squarespace.png'
 import floridaPoly from './company/floridaPoly1.webp'
+import lizard from './company/lizard.png'
 
 import komikult from './projects/komikult.png'
 import leaderboard from './projects/leaderboard.png'
@@ -88,8 +89,6 @@ import r_yetimotion from './projects/r_yetimotion.jpg'
 import r_dffrntera from './projects/r_dffrntera.jpg'
 import r_racksimply from './projects/r_racksimply.jpg'
 
-
-
 export {
   bwmap, nairobi, whiteabstract, worldmap,
   logo, profile,
@@ -98,7 +97,6 @@ export {
   s_amazon, s_android, s_angular, s_boostrap, s_c, s_cPlus, s_css3, s_cassandra, s_django, s_docker, s_firebase, s_html5, s_java, s_javascript, s_jquery, s_kotlin,
   s_laravel, s_mongodb, s_mysql, s_nodejs, s_postgresql, s_python, s_reactjs, s_redis, s_redux, s_ruby, s_rubyrails, s_rust, s_spring, s_typescript, s_vuejs,
   komikult, leaderboard, math, movie, nyeusi, space,
-  hear, dcc, squarespace, floridaPoly,
+  usf, hear, dcc, squarespace, floridaPoly, lizard,
   r_platoon, r_dwntwn, r_yetimotion, r_dffrntera, r_racksimply
-
 }
