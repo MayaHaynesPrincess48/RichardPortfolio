@@ -115,7 +115,7 @@ const Experience = () => {
               ease-in-out"
             >
               <a href="cv/senior-web-developer.docx" style={{ textDecoration: 'underline' }} download>
-                MY RESUME
+                MY  RESUME
               </a>
 
               <img
