@@ -114,7 +114,7 @@ const Experience = () => {
               hover:text-eerieBlack transition duration-[0.2s] 
               ease-in-out"
             >
-              <a href="cv/senior-web-developer.pdf" style={{ textDecoration: 'underline' }} download>
+              <a href="cv/senior-web-developer.docx" style={{ textDecoration: 'underline' }} download>
                 MY RESUME
               </a>
 
