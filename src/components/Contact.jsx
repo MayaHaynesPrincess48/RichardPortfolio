@@ -152,7 +152,8 @@ const Contact = () => {
         className="flex-[0.75] bg-jet p-8 rounded-2xl">
         <iframe
           // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.833618785371!2d90.41265112695315!3d24.036931700000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755db9832166e63%3A0x96050e560e6dc4fa!2sBOF%20Central%20Mosque!5e0!3m2!1sen!2sbd!4v1695023265917!5m2!1sen!2sbd"
-          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.120225147177!2d-81.2127223847447!3d28.58309218243243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e768f2c5e6b12f%3A0x17d51bd7ae2ef245!2s4652%20Pacifica%20Dr%2C%20Orlando%2C%20FL%2032817%2C%20USA!5e0!3m2!1sen!2sus!4v1696178405942!5m2!1sen!2sus"
+          // src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.120225147177!2d-81.2127223847447!3d28.58309218243243!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e768f2c5e6b12f%3A0x17d51bd7ae2ef245!2s4652%20Pacifica%20Dr%2C%20Orlando%2C%20FL%2032817%2C%20USA!5e0!3m2!1sen!2sus!4v1696178405942!5m2!1sen!2sus"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3445.6212487267674!2d-81.23476488457406!3d28.612928282421446!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88e76c94bc4a4087%3A0x9ef4032b80792cbf!2s4652%20Pacifica%20Dr%2C%20Orlando%2C%20FL%2032817%2C%20USA!5e0!3m2!1sen!2s!4v1697377843652!5m2!1sen!2s"
           frameBorder="0"
           allowFullScreen=""
           aria-hidden="false"
