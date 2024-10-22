@@ -28,7 +28,7 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
               Senior Full-Stack Developer <br className="sm:block hidden" />
-              have +6 years of experience
+              have +10 years of experience
             </p>
           </div>
           <div className="w-screen flex flex-col items-start justify-center sm:-ml-[3rem] xxs:mt-4"></div>
